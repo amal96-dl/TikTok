@@ -50,27 +50,9 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         //Definir the Bottom Navigation Backrgound Color
         bottomNavigationView.setBackgroundColor(Color.parseColor("#FFFFFF"));
-        //Listener pour Bottom Navigation
-        bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.action_home:
-                        // do something here
-                        return true;
-                    case R.id.action_group:
-                        // do something here
-                        return true;
-                    case R.id.action_message:
-                        // do something here
-                        return true;
-                    case R.id.action_profil:
-                        // do something here
-                        return true;
-                    default: return true;
-                }
-            }
-        });
+
+
+
         nblike = findViewById(R.id.nblike);
         nblike.setText(""+nb_like);
         nbshare = findViewById(R.id.nbshare);
