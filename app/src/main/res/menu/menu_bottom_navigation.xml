@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/hoome"
+        android:title="@string/text_acceuil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_group"
+        android:enabled="true"
+        android:icon="@drawable/group"
+        android:title="@string/text_Amis"
+        app:showAsAction="ifRoom"
+       />
+    <item />
+    <item
+        android:id="@+id/action_message"
+        android:enabled="true"
+        android:icon="@drawable/inbox"
+        android:title="@string/text_messages"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_profil"
+        android:enabled="true"
+        android:icon="@drawable/profile"
+        android:title="@string/text_profil"
+        app:showAsAction="ifRoom" />
+</menu>

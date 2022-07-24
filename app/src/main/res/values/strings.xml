@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TikTok</string>
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_landscape">Landscape</string>
+    <string name="bottom_navigation_menu_logos">Logo</string>
+    <string name="bottom_navigation_menu_android">Android</string>
+    <string name="text_acceuil">Acceuil</string>
+    <string name="text_Amis">Amis</string>
+    <string name="text_messages">Boite de reception</string>
+    <string name="text_profil">Profil</string>
+    <string name="text_label1">Abonnements</string>
+    <string name="text_label2">Profil</string>
+
+
+
+</resources>
